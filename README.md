@@ -1,1 +1,0 @@
-# palez8.github.io
