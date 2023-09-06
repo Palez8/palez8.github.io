@@ -1,7 +1,5 @@
 var userLanguage = navigator.language || navigator.userLanguage;
 
-console.log(userLanguage)
-
 var translations = {
     'en': {
         'homepageKey': 'Homepage',
