@@ -1,6 +1,6 @@
 @font-face {
     font-family: "KarmaticArcade";
-    src: url("../fonts/ka1.ttf") format("truetype");
+    src: url("/assets/fonts/ka1.ttf") format("truetype");
 }
 
 body{
@@ -57,7 +57,7 @@ header a:hover {
     text-align: center;
 }
 
-.container a {
+.containerButton a {
     background-color: #323232;
     color: white;
     text-decoration: none;
@@ -66,6 +66,24 @@ header a:hover {
     font-size: 32px;
 }
 
-.container a:hover {
+.containerButton a:hover {
     background-color: gray;
+}
+
+.containerGame img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20%;
+}
+
+.containerGame a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 64px;
+    margin-top: 25px;
+}
+
+.containerGame a:hover {
+    color: #323232;
 }
