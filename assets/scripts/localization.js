@@ -1,4 +1,4 @@
-var userLanguage = navigator.language || navigator.userLanguage;
+var userLanguage = navigator.language.toLowerCase().split('-')[0];
 
 var translations = {
     'en': {
