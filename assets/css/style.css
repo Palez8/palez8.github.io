@@ -57,6 +57,13 @@ header a:hover {
     text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+    .container p {
+        font-size: 50px; /* Ändern Sie die Schriftgröße für kleinere Bildschirme */
+        margin: 20px 0; /* Ändern Sie den Abstand oben und unten für kleinere Bildschirme */
+    }
+}
+
 .containerButton a {
     background-color: #323232;
     color: white;
