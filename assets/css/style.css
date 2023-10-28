@@ -59,8 +59,8 @@ header a:hover {
 
 @media screen and (max-width: 768px) {
     .container p {
-        font-size: 50px; /* Ändern Sie die Schriftgröße für kleinere Bildschirme */
-        margin: 20px 0; /* Ändern Sie den Abstand oben und unten für kleinere Bildschirme */
+        font-size: 50px;
+        margin: 20px 0;
     }
 }
 
